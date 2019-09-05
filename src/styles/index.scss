@@ -1,0 +1,16 @@
+@import './variables';
+@import './mixins.scss';
+body {
+  margin: 0;
+  padding: 40px;
+  width: calc(100vw - 80px);
+  background: #fff;
+}
+
+a {
+  color: $black1;
+  text-decoration: none;
+  &:visited {
+    color: $orange;
+  }
+}
