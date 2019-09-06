@@ -7,7 +7,7 @@
       <div class="benefit">
         <div class="benefit__img">
           <img
-            src="@/assets/icons/payment.svg"
+            src="@/assets/icons/debt.svg"
             alt="Smart Payment Icon" />
         </div>
         <p class="benefit__title">Medical Loans</p>
@@ -20,7 +20,7 @@
       <div class="benefit">
         <div class="benefit__img">
           <img
-            src="@/assets/icons/emr.svg"
+            src="@/assets/icons/ambulance.svg"
             alt="Smart Payment Icon" />
         </div>
         <p class="benefit__title">On-demand Ambulance Service</p>
@@ -33,7 +33,7 @@
       <div class="benefit">
         <div class="benefit__img">
           <img
-            src="@/assets/icons/shareholder.svg"
+            src="@/assets/icons/salary.svg"
             alt="Smart Payment Icon" />
         </div>
         <p class="benefit__title">Bonus Earnings</p>
@@ -45,7 +45,7 @@
       <div class="benefit">
         <div class="benefit__img">
           <img
-            src="@/assets/icons/shareholder.svg"
+            src="@/assets/icons/tax.svg"
             alt="Smart Payment Icon" />
         </div>
         <p class="benefit__title">Low Interest Lending</p>
@@ -56,7 +56,7 @@
       <div class="benefit">
         <div class="benefit__img">
           <img
-            src="@/assets/icons/shareholder.svg"
+            src="@/assets/icons/decentralized.svg"
             alt="Smart Payment Icon" />
         </div>
         <p class="benefit__title">Decentralized Enrollments</p>

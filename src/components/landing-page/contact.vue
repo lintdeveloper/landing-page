@@ -1,8 +1,8 @@
 <template>
   <div class="contact">
     <p class="title">
-      Ready to be part of this revolution? Get in touch or join the
-      waiting list.
+      Ready to be part of this healthcare transformation? Get in
+      touch or join the waiting list.
     </p>
     <div class="btns">
       <app-button class-name="button--fill">
