@@ -8,6 +8,7 @@
 
 <style lang="scss" scoped>
   .toggle {
+    cursor: pointer;
     div {
       width: 25px;
       height: 5px;

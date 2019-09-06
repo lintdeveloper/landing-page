@@ -1,11 +1,17 @@
-@mixin md(){
+@mixin sm(){
   @media screen and (min-width: 450px) {
       @content
   }
 }
 
-@mixin mdl(){
+@mixin md(){
   @media screen and (min-width: 600px) {
+      @content
+  }
+}
+
+@mixin mdl(){
+  @media screen and (min-width: 768px) {
       @content
   }
 }
