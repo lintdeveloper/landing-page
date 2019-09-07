@@ -60,7 +60,7 @@
       font-size: 1.5rem;
       text-align: center;
       @include mdl() {
-        text-align: left;
+        // text-align: left;
       }
     }
     @include mdl() {

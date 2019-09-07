@@ -17,7 +17,7 @@ a {
   color: $black1;
   text-decoration: none; 
   &:visited {
-    color: $orange;
+    color: $primary;
   }
 }
 
@@ -31,7 +31,7 @@ a {
 
 em {
   font-style: normal;
-  color: $orange;
+  color: $primary;
   font-weight: 700;
   margin: 10px 0;
 }

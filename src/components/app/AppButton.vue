@@ -37,14 +37,14 @@ export default {
     &--fill,
     &--outline:hover {
       border: 2px solid $white0;
-      background: $orange;
+      background: $primary;
       border: none;
       color: $white0;
     }
     &--outline,
     &--fill:hover {
-      border: 2px solid $orange;
-      color: $orange;
+      border: 2px solid $primary;
+      color: $primary;
       background: $white0;
     }
   }

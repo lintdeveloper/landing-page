@@ -13,7 +13,7 @@
       width: 25px;
       height: 5px;
       margin: 4px 0;
-      background: $orange;
+      background: $primary;
     }
   }
 </style>

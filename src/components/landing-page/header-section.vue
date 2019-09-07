@@ -76,12 +76,15 @@
         flex: 0 0 35%;
       }
       .img {
-        width: 404px;
+        width: 250px;
         max-width: 100%;
-        height: 304px;
         flex: 0 0 45%;
+        margin: 0 auto;
         img {
           width: 100%;
+        }
+        @include mdl() {
+          margin: 0;
         }
       }
       @include mdl() {

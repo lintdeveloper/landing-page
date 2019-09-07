@@ -26,10 +26,11 @@
         flex: 0 0 35%;
       }
       .img {
-        width: 404px;
+        width: 250px;
         max-width: 100%;
-        height: calc(100vw);
+        height: 250px;
         border-radius: 50%;
+        margin: 0 auto;
         img {
           width: 100%;
           border-radius: 50%;
@@ -42,7 +43,7 @@
         align-items: center;
         justify-content: space-evenly;
         .img {
-          height: 404px;
+          margin: 0;
         }
       }
     }
