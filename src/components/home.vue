@@ -35,5 +35,9 @@ export default {
 <style scoped lang="scss">
   .body {
     position: absolute;
+    width: calc(100vw - 40px);
+    @include mdl() {
+      width: calc(100vw - 80px);
+    }
   }
 </style>
