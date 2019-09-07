@@ -78,7 +78,7 @@
       .img {
         width: 250px;
         max-width: 100%;
-        flex: 0 0 45%;
+        // flex: 0 0 45%;
         margin: 0 auto;
         img {
           width: 100%;

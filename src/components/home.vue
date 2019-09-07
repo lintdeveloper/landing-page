@@ -37,7 +37,7 @@ export default {
     position: absolute;
     width: calc(100vw - 40px);
     @include mdl() {
-      width: calc(100vw - 80px);
+      width: calc(100vw - 100px);
     }
   }
 </style>
