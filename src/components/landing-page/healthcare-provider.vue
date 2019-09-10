@@ -25,12 +25,12 @@
             src="@/assets/icons/emr.svg"
             alt="Smart Payment Icon" />
         </div>
-        <p class="benefit__title">Access to Lafya EMR</p>
+        <p class="benefit__title">Access to Lafya EMR Software</p>
         <p class="benefit__desc">
-         Have access to our EMR and streamline your process of
-         records management and administration. Save cost, time and
-         energy by having unlimited access to our EMR to help you
-         with your patient journey.
+         Have access to our Electronic Medical Records (EMR)
+         software and streamline your process of records management
+         and administration. Save cost, time and energy by having
+         unlimited access to our EMR to help you document your patient journey.
         </p>
       </div>
       <div class="benefit">

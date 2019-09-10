@@ -3,7 +3,7 @@
     <div class="header__main">
       <div class="text">
         <p class="title">
-          Blockchain powered health insurance platform
+          Blockchain powered health financing platform
         </p>
         <p class="subtitle">
           Lafya enables low income earners to fund their healthcare
@@ -15,27 +15,34 @@
           Join the waiting list
         </app-button>
       </div>
+      <vue-typer
+        class="sub-text"
+        :text="text"
+        erase-style="backspace"
+        :erase-delay="20"
+      ></vue-typer>
       <img src="@/assets/map.jpg" alt="Map of Africa">
     </div>
-    <div class="header__section">
-      <p>
-        We combine modern technology and a dedicated human resource
-        to bring healthcare to the millions of people that need it.
-        We are passionate about fixing healthcare in Africa and will
-        continue to develop innovative and scalable solutions that
-        will transform the broke continent.
-      </p>
-      <div class="img">
-        <img src="@/assets/modern-tech.jpg" alt="Modern Technology">
-      </div>
-    </div>
+
   </div>
 </template>
+
+<script>
+export default {
+  data: () => ({
+    text: [
+      'Life is hard and finances can be scarce. You\'re always looking for funds to pay medical bills when you fall ill, You constantly deal with the challenge of your children falling ill when you\'re broke. Your wife\'s delivery day is nearing and the other bills just won\'t stop coming',
+      'Lafya is here to help you solve just that. And guess what? for a tiny fee per day. Join our daily contribution for healthcare as little as N50/day to enjoy free medical care in the best hospitals and clinics with access to quality drugs and professional services.',
+    ],
+  }),
+};
+</script>
 
 <style lang="scss" scoped>
   .header {
     margin-top: 120px;
     width: calc(100% - 40px);
+    position: relative;
     @include mdl() {
       width: calc(100% - 80px);
     }
@@ -54,6 +61,9 @@
           margin-top: 10px;
         }
       }
+      .sub-text {
+        margin: 10px 0;
+      }
       img {
         width: 100%;
       }
@@ -65,33 +75,23 @@
           flex: 0 0 40%;
           margin-top: 30px;
         }
+        .sub-text {
+          position: absolute;
+          width: 30%;
+          top: 55%;
+          right: 30%;
+        }
         img {
           width: 50%;
         }
       }
     }
-    &__section {
-      margin-top: 10px;
-      p {
-        flex: 0 0 35%;
-      }
-      .img {
-        width: 250px;
-        max-width: 100%;
-        // flex: 0 0 45%;
-        margin: 0 auto;
-        img {
-          width: 100%;
-        }
-        @include mdl() {
-          margin: 0;
-        }
-      }
-      @include mdl() {
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        justify-content: space-evenly;
+  }
+  .vue-typer::v-deep {
+    word-wrap: break-word;
+    .custom.char {
+      &.typed {
+        color: $black1;
       }
     }
   }

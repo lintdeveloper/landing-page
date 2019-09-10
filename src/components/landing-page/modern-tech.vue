@@ -1,20 +1,22 @@
 <template>
-  <div class="blockchain">
-    <div class="blockchain__section">
+  <div class="header">
+    <div class="header__section">
       <p>
-        Lafya runs on the powerful blockchain technology, creates
-        open and reliable record of transactions and operates self
-        auditing processes.
+        We combine modern technology and a dedicated human resource
+        to bring healthcare to the millions of people that need it.
+        We are passionate about fixing healthcare in Africa and will
+        continue to develop innovative and scalable solutions that
+        will transform the broken healthcare system on the continent.
       </p>
       <div class="img">
-        <img src="@/assets/icons/bitcoin.svg" alt="Bitcoin image">
+        <img src="@/assets/icons/chip.svg" alt="Modern Technology">
       </div>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-  .blockchain {
+  .header {
     margin-top: 120px;
     width: calc(100% - 40px);
     @include mdl() {
@@ -28,23 +30,20 @@
       .img {
         width: 250px;
         max-width: 100%;
-        height: 250px;
-        border-radius: 50%;
+        // flex: 0 0 45%;
         margin: 0 auto;
         img {
           width: 100%;
-          // border-radius: 50%;
-          height: 100%;
+        }
+        @include mdl() {
+          margin: 0;
         }
       }
       @include mdl() {
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         align-items: center;
         justify-content: space-evenly;
-        .img {
-          margin: 0;
-        }
       }
     }
   }

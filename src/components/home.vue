@@ -2,10 +2,12 @@
   <div class="body">
     <nav-bar />
     <header-section id="home" />
-    <block-chain />
     <customer />
     <hcp id="features" />
     <providers />
+    <modern-tech />
+    <block-chain />
+    <pricing />
     <contact id="contact" />
   </div>
 </template>
@@ -13,10 +15,12 @@
 <script>
 import NavBar from '@/components/landing-page/navbar.vue';
 import HeaderSection from '@/components/landing-page/header-section.vue';
+import ModernTech from '@/components/landing-page/modern-tech.vue';
 import BlockChain from '@/components/landing-page/blockchain.vue';
 import Customer from '@/components/landing-page/customer.vue';
 import Hcp from '@/components/landing-page/healthcare-provider.vue';
 import Providers from '@/components/landing-page/providers.vue';
+import Pricing from '@/components/landing-page/pricing.vue';
 import Contact from '@/components/landing-page/contact.vue';
 
 export default {
@@ -26,8 +30,10 @@ export default {
     Hcp,
     BlockChain,
     Providers,
+    Pricing,
     Customer,
     Contact,
+    ModernTech,
   },
 };
 </script>

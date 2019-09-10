@@ -8,7 +8,7 @@
         <div class="benefit__img">
           <img
             src="@/assets/icons/debt.svg"
-            alt="Smart Payment Icon" />
+            alt="Medical Loans Icon" />
         </div>
         <p class="benefit__title">Medical Loans</p>
         <p class="benefit__desc">
@@ -21,7 +21,7 @@
         <div class="benefit__img">
           <img
             src="@/assets/icons/ambulance.svg"
-            alt="Smart Payment Icon" />
+            alt="Ambulance Icon" />
         </div>
         <p class="benefit__title">On-demand Ambulance Service</p>
         <p class="benefit__desc">
@@ -34,7 +34,7 @@
         <div class="benefit__img">
           <img
             src="@/assets/icons/salary.svg"
-            alt="Smart Payment Icon" />
+            alt="Bonus earnings Icon" />
         </div>
         <p class="benefit__title">Bonus Earnings</p>
         <p class="benefit__desc">
@@ -46,23 +46,37 @@
         <div class="benefit__img">
           <img
             src="@/assets/icons/tax.svg"
-            alt="Smart Payment Icon" />
+            alt="Interest Icon" />
         </div>
         <p class="benefit__title">Low Interest Lending</p>
         <p class="benefit__desc">
-          Access low interest loeans with flexible repayment plans.
+          Access low interest loans with flexible repayment plans.
         </p>
       </div>
       <div class="benefit">
         <div class="benefit__img">
           <img
             src="@/assets/icons/decentralized.svg"
-            alt="Smart Payment Icon" />
+            alt="Decentralized Icon" />
         </div>
         <p class="benefit__title">Decentralized Enrollments</p>
         <p class="benefit__desc">
-          Access medical care in any hospital irresponsible of your
+          Access medical care in any hospital irrespective of your
           location anytime.
+        </p>
+      </div>
+      <div class="benefit">
+        <div class="benefit__img">
+          <img
+            src="@/assets/icons/financing.svg"
+            alt="Financing Icon" />
+        </div>
+        <p class="benefit__title">Shared Financing</p>
+        <p class="benefit__desc">
+          Have a family member or friend who is ill, have exhausted
+          their coverage ceiling and still needs medical financing,
+          share your coverage ceiling with them to help them pay
+          their medical bills.
         </p>
       </div>
     </div>
