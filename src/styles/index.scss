@@ -16,7 +16,7 @@ body {
 a {
   color: $black1;
   text-decoration: none; 
-  &:visited {
+  &:hover {
     color: $primary;
   }
 }

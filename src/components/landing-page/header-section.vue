@@ -20,6 +20,8 @@
         :text="text"
         erase-style="backspace"
         :erase-delay="20"
+        :type-delay="20"
+        :repeat="0"
       ></vue-typer>
       <img src="@/assets/map.jpg" alt="Map of Africa">
     </div>
@@ -31,8 +33,8 @@
 export default {
   data: () => ({
     text: [
-      'Life is hard and finances can be scarce. You\'re always looking for funds to pay medical bills when you fall ill, You constantly deal with the challenge of your children falling ill when you\'re broke. Your wife\'s delivery day is nearing and the other bills just won\'t stop coming',
-      'Lafya is here to help you solve just that. And guess what? for a tiny fee per day. Join our daily contribution for healthcare as little as N50/day to enjoy free medical care in the best hospitals and clinics with access to quality drugs and professional services.',
+      `Life is hard and finances can be scarce. You're always looking for funds to pay medical bills when you fall ill, You constantly deal with the challenge of your children falling ill when you're broke. Your wife's delivery day is nearing and the other bills just won't stop coming Lafya is here to help you solve just that. And guess what? for a tiny fee per day.
+      Join our daily contribution for healthcare as little as N50/day to enjoy free medical care in the best hospitals and clinics with access to quality drugs and professional services.`,
     ],
   }),
 };

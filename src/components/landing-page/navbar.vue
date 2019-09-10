@@ -6,9 +6,20 @@
       class="toggle"
     ></app-toggle>
     <div class="navbar__links">
-      <a href="#home">Home</a>
-      <a href="#features">Features</a>
-      <a href="#contact">Contact</a>
+      <router-link
+        :class="path == 'home' ?'home':''"
+        to="/"
+        v-scroll-to="'#home'"
+      >Home</router-link>
+      <router-link
+        v-show="path == 'home'"
+        to="/"
+        v-scroll-to="'#features'"
+      >Features</router-link>
+      <router-link
+        to="contact"
+        :class="path == 'contact' ?'home':''"
+      >Contact</router-link>
     </div>
     <div v-show="showNav" class="navbar__side">
       <app-toggle
@@ -24,9 +35,13 @@
 
 <script>
 export default {
+  props: ['path'],
   data: () => ({
     showNav: false,
   }),
+  mounted() {
+    console.log(this.path);
+  },
 };
 </script>
 
@@ -61,6 +76,10 @@ export default {
       }
       a {
         margin-left: 30px;
+        &.home,
+        &.contact {
+          color: $primary;
+        }
       }
     }
 
