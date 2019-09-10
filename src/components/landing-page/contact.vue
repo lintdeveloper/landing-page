@@ -17,7 +17,7 @@
 
 <style lang="scss" scoped>
   .contact {
-    margin-top: 20px;
+    margin-top: 50px;
     width: calc(100% - 40px);
     display: flex;
     flex-direction: column;
@@ -36,6 +36,7 @@
       justify-content: center;
       align-items: center;
       text-align: left;
+      margin-top: 100px;
       .title {
         flex: 0 0 40%;
       }

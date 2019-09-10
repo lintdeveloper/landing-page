@@ -68,7 +68,7 @@
 <style lang="scss" scoped>
   .pricing {
     width: calc(100% - 40px);
-    margin-top: 50px;
+    margin-top: 70px;
     .title {
       font-size: 1.5rem;
       text-align: center;
@@ -176,6 +176,9 @@
           }
         }
       }
+    }
+    @include mdl() {
+      margin-top: 100px;
     }
   }
 </style>

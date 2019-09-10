@@ -39,9 +39,6 @@ export default {
   data: () => ({
     showNav: false,
   }),
-  mounted() {
-    console.log(this.path);
-  },
 };
 </script>
 

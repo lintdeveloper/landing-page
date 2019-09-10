@@ -15,17 +15,16 @@
           Join the waiting list
         </app-button>
       </div>
-      <vue-typer
-        class="sub-text"
-        :text="text"
-        erase-style="backspace"
-        :erase-delay="20"
-        :type-delay="20"
-        :repeat="0"
-      ></vue-typer>
       <img src="@/assets/map.jpg" alt="Map of Africa">
     </div>
-
+    <vue-typer
+      class="sub-text"
+      :text="text"
+      erase-style="backspace"
+      :erase-delay="20"
+      :type-delay="20"
+      :repeat="0"
+    ></vue-typer>
   </div>
 </template>
 
@@ -47,8 +46,20 @@ export default {
     position: relative;
     @include mdl() {
       width: calc(100% - 80px);
+      .sub-text {
+        position: relative;
+      }
+    }
+    @include lg() {
+      .sub-text {
+        position: absolute;
+        width: 30%;
+        top: 55%;
+        right: 30%;
+      }
     }
     &__main {
+      margin: 15px 0;
       .text {
         text-align: center;
         .title {
@@ -76,12 +87,6 @@ export default {
           text-align: left;
           flex: 0 0 40%;
           margin-top: 30px;
-        }
-        .sub-text {
-          position: absolute;
-          width: 30%;
-          top: 55%;
-          right: 30%;
         }
         img {
           width: 50%;

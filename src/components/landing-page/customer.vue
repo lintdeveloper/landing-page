@@ -97,7 +97,7 @@
 <style lang="scss" scoped>
   .hcp {
     width: calc(100% - 40px);
-    margin-top: 50px;
+    margin-top: 70px;
     .title {
       font-size: 1.5rem;
       text-align: center;
@@ -127,6 +127,7 @@
           font-size: 1.3rem;
           font-weight: 700;
           color: $black0;
+          height: 35px;
         }
       }
       @include mdl() {
@@ -137,14 +138,12 @@
         .benefit {
           flex: 0 0 30%;
           text-align: left;
-          margin: 40px 10px;
+          margin: 0px 10px;
           &__img {
             margin: 0;
           }
           &__desc {
             margin-top: 20px;
-            position: absolute;
-            top: calc(50% + 40px);
           }
         }
       }
@@ -163,11 +162,8 @@
         width: 500px;
         margin: 0 auto;
         justify-content: space-around;
-        margin-top: 10%;
+        margin-top: 10px;
         flex-flow: row wrap;
-      }
-      @include lg() {
-        margin-top: 5%;
       }
     }
   }
