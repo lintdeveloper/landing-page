@@ -23,6 +23,10 @@
         <p class="hcp__name">Medical Laboratories</p>
       </div>
     </div>
+    <p class="sub-title">
+      Connect to our network of Hospitals, Pharmacies and Medical
+      Labs and get a suite of healthcare services.
+    </p>
   </div>
 </template>
 
@@ -36,6 +40,14 @@
       @include mdl() {
         // text-align: left;
       }
+    }
+    .sub-title {
+      text-align: center;
+      font-size: 1.3rem;
+      color: $black1;
+      width: 500px;
+      max-width: 100%;
+      margin: 20px auto;
     }
     .hcps {
       width: 400px;

@@ -14,12 +14,9 @@
           </div>
         </header>
         <ul class="plan-features">
-          <li><i class="ion-checkmark"> </i>5GB Linux Web Space</li>
-          <li><i class="ion-checkmark"> </i>5 MySQL Databases</li>
-          <li><i class="ion-checkmark"> </i>Unlimited Email</li>
-          <li><i class="ion-checkmark"> </i>250Gb mo Transfer</li>
-          <li><i class="ion-checkmark"> </i>24/7 Tech Support</li>
-          <li><i class="ion-checkmark"> </i>Daily Backups</li>
+          <li>Small business operator</li>
+          <li>Prefer daily contribution</li>
+          <li>Earn Less</li>
         </ul>
         <div class="plan-select"><a href="">Select Plan</a></div>
       </div>
@@ -33,12 +30,9 @@
           </div>
         </header>
         <ul class="plan-features">
-          <li><i class="ion-checkmark"> </i>5GB Linux Web Space</li>
-          <li><i class="ion-checkmark"> </i>5 MySQL Databases</li>
-          <li><i class="ion-checkmark"> </i>Unlimited Email</li>
-          <li><i class="ion-checkmark"> </i>250Gb mo Transfer</li>
-          <li><i class="ion-checkmark"> </i>24/7 Tech Support</li>
-          <li><i class="ion-checkmark"> </i>Daily Backups</li>
+          <li>Medium scale earnings</li>
+          <li>Prefer to pay weekly</li>
+          <li>Book keep record basis</li>
         </ul>
         <div class="plan-select"><a href="">Select Plan</a></div>
       </div>
@@ -52,12 +46,9 @@
           </div>
         </header>
         <ul class="plan-features">
-          <li><i class="ion-checkmark"> </i>5GB Linux Web Space</li>
-          <li><i class="ion-checkmark"> </i>5 MySQL Databases</li>
-          <li><i class="ion-checkmark"> </i>Unlimited Email</li>
-          <li><i class="ion-checkmark"> </i>250Gb mo Transfer</li>
-          <li><i class="ion-checkmark"> </i>24/7 Tech Support</li>
-          <li><i class="ion-checkmark"> </i>Daily Backups</li>
+          <li>Prefer to pay in advance</li>
+          <li>Earn monthly income</li>
+          <li>Private, small or large businesses</li>
         </ul>
         <div class="plan-select"><a href="">Select Plan</a></div>
       </div>

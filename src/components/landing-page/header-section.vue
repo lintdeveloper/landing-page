@@ -17,25 +17,34 @@
       </div>
       <img src="@/assets/map.jpg" alt="Map of Africa">
     </div>
-    <vue-typer
+    <!-- <vue-typer
       class="sub-text"
       :text="text"
       erase-style="backspace"
       :erase-delay="20"
       :type-delay="20"
       :repeat="0"
-    ></vue-typer>
+    ></vue-typer> -->
+    <div class="sub-text typewriter">
+      <p>
+        Life is hard and finances can be scarce.<br>You're always
+        looking for funds to pay medical bills when you fall ill?<br>
+        You constantly deal with the challenge of your children
+        falling ill when you're broke?<br>Your wife's delivery day
+        is nearing and the other bills just won't stop coming?<br>
+        Lafya is here to help you solve just that.<br>And guess what,
+        it's for a tiny fee per day.<br><b>Join our daily
+        contribution for healthcare as little as N50/day to enjoy
+        free medical care in the best hospitals and clinics with
+        access to quality drugs and professional services.</b>
+      </p>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  data: () => ({
-    text: [
-      `Life is hard and finances can be scarce. You're always looking for funds to pay medical bills when you fall ill, You constantly deal with the challenge of your children falling ill when you're broke. Your wife's delivery day is nearing and the other bills just won't stop coming Lafya is here to help you solve just that. And guess what? for a tiny fee per day.
-      Join our daily contribution for healthcare as little as N50/day to enjoy free medical care in the best hospitals and clinics with access to quality drugs and professional services.`,
-    ],
-  }),
+  data: () => ({}),
 };
 </script>
 
@@ -48,14 +57,15 @@ export default {
       width: calc(100% - 80px);
       .sub-text {
         position: relative;
+        line-height: 1.35rem;
       }
     }
     @include lg() {
       .sub-text {
         position: absolute;
-        width: 30%;
+        width: 35%;
         top: 55%;
-        right: 30%;
+        right: 35%;
       }
     }
     &__main {
