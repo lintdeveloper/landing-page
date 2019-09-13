@@ -5,10 +5,10 @@
       touch or join the waiting list.
     </p>
     <div class="btns">
-      <app-button class-name="button--fill">
+      <app-button to="contact" class-name="button--fill">
         Join Our Waiting List
       </app-button>
-      <app-button class-name="button--outline">
+      <app-button to="contactus" class-name="button--outline">
         Get In Touch
       </app-button>
     </div>

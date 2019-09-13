@@ -11,7 +11,7 @@
           the best hospitals and clinics in Nigeria.<br><br>
           <em>Want to know more?</em>
         </p>
-        <app-button class-name="button--fill">
+        <app-button to="/contact" class-name="button--fill">
           Join the waiting list
         </app-button>
       </div>

@@ -1,7 +1,7 @@
 <template>
-  <button :class="['button', className]">
+  <a :href="to" :class="['button', className]">
     <slot></slot>
-  </button>
+  </a>
 </template>
 
 <script>
@@ -10,6 +10,10 @@ export default {
     className: {
       type: String,
       default: 'button--fill',
+    },
+    to: {
+      type: String,
+      default: '#',
     },
   },
 };
@@ -22,6 +26,8 @@ export default {
     color: $white0;
     font-size: 1.1rem;
     transition: all .2s;
+    text-decoration: none;
+    cursor: pointer;
     &--fill {
       box-shadow: 0px 13px 36px #622B1D55;
       &:hover {
