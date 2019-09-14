@@ -14,9 +14,9 @@
           </div>
         </header>
         <ul class="plan-features">
-          <li>Small business operator</li>
-          <li>Prefer daily contribution</li>
-          <li>Earn Less</li>
+          <li>You're a small business operator</li>
+          <li>You prefer daily contribution</li>
+          <li>You deal mostly with cash</li>
         </ul>
         <div class="plan-select"><a href="">Select Plan</a></div>
       </div>
@@ -30,9 +30,9 @@
           </div>
         </header>
         <ul class="plan-features">
-          <li>Medium scale earnings</li>
-          <li>Prefer to pay weekly</li>
-          <li>Book keep record basis</li>
+          <li>You're a small/medium business operator</li>
+          <li>You prefer to pay weekly</li>
+          <li>You deal with cash/mobile app</li>
         </ul>
         <div class="plan-select"><a href="">Select Plan</a></div>
       </div>
@@ -46,9 +46,9 @@
           </div>
         </header>
         <ul class="plan-features">
-          <li>Prefer to pay in advance</li>
-          <li>Earn monthly income</li>
-          <li>Private, small or large businesses</li>
+          <li>You prefer to pay in advance</li>
+          <li>You operate a large business</li>
+          <li>You prefer recurring payments via card/bank app</li>
         </ul>
         <div class="plan-select"><a href="">Select Plan</a></div>
       </div>

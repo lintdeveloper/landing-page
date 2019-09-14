@@ -1,6 +1,8 @@
 <template>
   <div class="navbar">
-    <img src="@/assets/Lafya.png" alt="Lafya Logo">
+    <router-link to="/">
+      <img src="@/assets/Lafya.png" alt="Lafya Logo">
+    </router-link>
     <app-toggle
       @showNav="showNav = !showNav"
       class="toggle"

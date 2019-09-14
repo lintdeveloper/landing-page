@@ -166,5 +166,8 @@
         flex-flow: row wrap;
       }
     }
+    @include lg() {
+      margin-top: 150px;
+    }
   }
 </style>

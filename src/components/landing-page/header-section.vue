@@ -27,13 +27,13 @@
     ></vue-typer> -->
     <div class="sub-text typewriter">
       <p>
-        Life is hard and finances can be scarce.<br>You're always
-        looking for funds to pay medical bills when you fall ill?<br>
+        Life is hard and finances can be scarce.<br><br>You're always
+        looking for funds to pay medical bills when you fall ill?<br><br>
         You constantly deal with the challenge of your children
-        falling ill when you're broke?<br>Your wife's delivery day
-        is nearing and the other bills just won't stop coming?<br>
-        Lafya is here to help you solve just that.<br>And guess what,
-        it's for a tiny fee per day.<br><b>Join our daily
+        falling ill when you're broke?<br><br>Your wife's delivery day
+        is nearing and the other bills just won't stop coming?<br><br>
+        Lafya is here to help you solve just that.<br><br>And guess what,
+        it's for a tiny fee per day.<br><br><b>Join our daily
         contribution for healthcare as little as N50/day to enjoy
         free medical care in the best hospitals and clinics with
         access to quality drugs and professional services.</b>
@@ -58,6 +58,7 @@ export default {
       .sub-text {
         position: relative;
         line-height: 1.35rem;
+        text-align: center;
       }
     }
     @include lg() {

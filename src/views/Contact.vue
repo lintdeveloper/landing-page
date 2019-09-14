@@ -2,31 +2,34 @@
   <div class="body">
     <nav-bar :path="$route.name" />
     <form
-      action="https://formspree.io/abdulqudusabubakre@gmail.com"
-      method="post"
+
+      @submit.prevent="preventSubmit"
+      method="POST"
+      target="_blank"
     >
       <p>Contact Us</p>
         <input
           type="radio"
           id="individual"
-          value="individual"
+          value="Individual"
           name="individual"
           v-model="userType" />
         <label for="individual">Individual</label>
         <input
           type="radio"
           id="hcp"
-          value="hcp"
+          value="HCP"
           v-model="userType">
         <label for="hcp">HCP</label>
       <multi-select
-        v-show="userType == 'hcp'"
+        v-show="userType == 'HCP'"
         class="select"
         :options=hcps
         v-model="hcp"
         placeholder="Healthcare Provider"
       ></multi-select>
       <input
+        v-model="name"
         class="input"
         type="text"
         name="Name"
@@ -34,6 +37,7 @@
         required
         placeholder="Enter Name" />
       <input
+        v-model="email"
         class="input"
         type="email"
         name="email"
@@ -41,6 +45,7 @@
         required
         placeholder="Email Address" />
       <input
+        v-model="phone"
         class="input"
         type="tel"
         name="number"
@@ -61,7 +66,20 @@ export default {
     hcps: ['Hospital', 'Laboratory', 'Pharmacy'],
     hcp: '',
     userType: '',
+    name: '',
+    email: '',
+    phone: '',
   }),
+  computed: {
+    getMessageBody() {
+      return `mailto:contact@lafya.co?subject=Join%20Lafya%20Waiting%20List&body=Name: ${this.name}%0D%0AEmail: ${this.email}%0D%0APhone: ${this.phone}%0D%0AUser: ${this.userType}${this.hcp ? `%0D%0AHealthcare Provider: ${this.hcp}` : ''}`;
+    },
+  },
+  methods: {
+    preventSubmit() {
+      window.open(this.getMessageBody);
+    },
+  },
 };
 </script>
 

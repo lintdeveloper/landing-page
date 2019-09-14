@@ -5,14 +5,17 @@
       <p>&copy; All rights reserved</p>
     </div>
     <div class="social">
-      <a href="">
+      <a href="twitter.com/lafya_">
         <img src="@/assets/icons/twitter.svg" alt="Twitter">
       </a>
-      <a href="">
+      <a href="#">
         <img src="@/assets/icons/facebook.svg" alt="Facebook">
       </a>
-      <a href="">
+      <a href="#">
         <img src="@/assets/icons/linkedin.svg" alt="linkedin">
+      </a>
+      <a href="mailto:contact@lafya.co">
+        <img src="@/assets/icons/email.svg" alt="Email">
       </a>
     </div>
   </div>
