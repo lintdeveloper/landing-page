@@ -28,9 +28,20 @@
         @showNav="showNav = !showNav"
         class="toggle"
       ></app-toggle>
-      <a href="#home" @click="showNav = !showNav">Home</a>
-      <a href="#features" @click="showNav = !showNav">Features</a>
-      <a href="#contact" @click="showNav = !showNav">Contact</a>
+      <router-link
+        :class="path == 'home' ?'home':''"
+        to="/"
+        v-scroll-to="'#home'"
+      >Home</router-link>
+      <router-link
+        v-show="path == 'home'"
+        to="/"
+        v-scroll-to="'#features'"
+      >Features</router-link>
+      <router-link
+        to="contact"
+        :class="path == 'contact' ?'home':''"
+      >Contact</router-link>
     </div>
   </div>
 </template>
@@ -98,7 +109,7 @@ export default {
       .toggle {
         position: absolute;
         right: 20px;
-        top: 30px;
+        top: 25px;
       }
       a {
         margin: 10px 0;

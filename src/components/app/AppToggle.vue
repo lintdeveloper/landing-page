@@ -9,6 +9,7 @@
 <style lang="scss" scoped>
   .toggle {
     cursor: pointer;
+    outline: none;
     div {
       width: 25px;
       height: 5px;

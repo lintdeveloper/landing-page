@@ -53,12 +53,14 @@ export default {
     margin-top: 120px;
     width: calc(100% - 40px);
     position: relative;
+    .sub-text {
+      text-align: center;
+    }
     @include mdl() {
       width: calc(100% - 80px);
       .sub-text {
         position: relative;
         line-height: 1.35rem;
-        text-align: center;
       }
     }
     @include lg() {

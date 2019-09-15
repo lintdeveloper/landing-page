@@ -27,6 +27,11 @@ export default {
     font-size: 1.1rem;
     transition: all .2s;
     text-decoration: none;
+    display: block;
+    margin: 7px auto;
+    @include mdl() {
+      margin: 0;
+    }
     cursor: pointer;
     &--fill {
       box-shadow: 0px 13px 36px #622B1D55;
