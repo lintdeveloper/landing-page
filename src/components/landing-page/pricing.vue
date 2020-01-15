@@ -153,7 +153,8 @@
             text-transform: uppercase;
             letter-spacing: 4px;
             display: inline-block;
-            &:hover {
+            &:hover,
+            &:focus {
               background-color: rgba(0, 0, 0, 0.3);
             }
           }
