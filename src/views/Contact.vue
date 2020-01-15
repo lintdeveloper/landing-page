@@ -72,7 +72,7 @@ export default {
   }),
   computed: {
     getMessageBody() {
-      return `mailto:contact@lafya.co?subject=Join%20Lafya%20Waiting%20List&body=Name: ${this.name}%0D%0AEmail: ${this.email}%0D%0APhone: ${this.phone}%0D%0AUser: ${this.userType}${this.hcp ? `%0D%0AHealthcare Provider: ${this.hcp}` : ''}`;
+      return `mailto:nanlirkapnan@protonmail.com?subject=Join%20Lafya%20Waiting%20List&body=Name: ${this.name}%0D%0AEmail: ${this.email}%0D%0APhone: ${this.phone}%0D%0AUser: ${this.userType}${this.hcp ? `%0D%0AHealthcare Provider: ${this.hcp}` : ''}`;
     },
   },
   methods: {
